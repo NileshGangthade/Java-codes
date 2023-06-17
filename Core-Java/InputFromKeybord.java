@@ -6,6 +6,7 @@ public class InputFromKeybord {
         Scanner sc= new Scanner(System.in);
     int a,b,c;
         System.out.println("Enter a two numbers :");
+        sc.useRadix(2);
         a= sc.nextInt();
         b= sc.nextInt();
         c=a+b;
