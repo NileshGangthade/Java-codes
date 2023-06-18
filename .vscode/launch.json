@@ -1,0 +1,99 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {"name":"Python: Current File","type":"python","request":"launch","program":"${file}","console":"integratedTerminal","justMyCode":true},
+
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Datatypes",
+            "request": "launch",
+            "mainClass": "Datatypes",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "EscapeSequenceChar",
+            "request": "launch",
+            "mainClass": "EscapeSequenceChar",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "HelloWold",
+            "request": "launch",
+            "mainClass": "HelloWold",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "InputFromKeybord",
+            "request": "launch",
+            "mainClass": "InputFromKeybord",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "PrintZeroAtLast",
+            "request": "launch",
+            "mainClass": "PrintZeroAtLast",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "RockPaperSizerGame",
+            "request": "launch",
+            "mainClass": "RockPaperSizerGame",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "StarPattarn",
+            "request": "launch",
+            "mainClass": "StarPattarn",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "Strings_Operatation",
+            "request": "launch",
+            "mainClass": "Strings_Operatation",
+            "projectName": "Java-codes_83deda1d"
+        }
+    ]
+}
