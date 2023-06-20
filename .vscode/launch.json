@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "FiboSeries",
             "request": "launch",
             "mainClass": "FiboSeries",
