@@ -14,5 +14,5 @@ public class StarPattarn {
 
         }
         sc.close();
-    }
+    } 
 }
