@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Recusion",
+            "request": "launch",
+            "mainClass": "Recusion",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "NumberSystem",
+            "request": "launch",
+            "mainClass": "NumberSystem",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "VarArgs",
             "request": "launch",
             "mainClass": "VarArgs",
