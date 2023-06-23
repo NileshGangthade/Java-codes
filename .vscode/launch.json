@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "scanner_hasNext",
+            "request": "launch",
+            "mainClass": "scanner_hasNext",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "FibSeries",
+            "request": "launch",
+            "mainClass": "FibSeries",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "Recusion",
             "request": "launch",
             "mainClass": "Recusion",
