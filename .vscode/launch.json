@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "swap",
+            "request": "launch",
+            "mainClass": "swap",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "scanner_hasNext",
             "request": "launch",
             "mainClass": "scanner_hasNext",
