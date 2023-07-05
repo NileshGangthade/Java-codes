@@ -1,14 +1,14 @@
 import java.util.*;
 public class swapAstring {
-    public static boolean swapAstring(String s, String goal){
-        char c = s.charAt(0);
-        char b = s.charAt(1);
-        char a []={b,c};
-        String n= new String(a);
-        System.out.println(c);
-        System.out.println(b);
-        System.out.println(n);
-        if (n.charAt(0)==goal.charAt(0) && n.charAt(1)==goal.charAt(1)) {
+    public  boolean swapAstring(String s, String goal){
+        // char c = s.charAt(0);
+        // char b = s.charAt(1);
+        // char a []={b,c};
+        // String n= new String(a);
+        // System.out.println(c);
+        // System.out.println(b);
+        // System.out.println(n);
+        if (s.charAt(1)==goal.charAt(0) && s.charAt(0)==goal.charAt(1)) {
             return true;
         }
 
