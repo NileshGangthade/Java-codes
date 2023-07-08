@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CreateFile",
+            "request": "launch",
+            "mainClass": "CreateFile",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "Pattern",
             "request": "launch",
             "mainClass": "Pattern",
