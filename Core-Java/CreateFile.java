@@ -1,10 +1,12 @@
-import java.io.File;  
+import java.io.*;
 import java.io.IOException;
 
 public class CreateFile {
     public static void main(String[] args) {
         try {
-            File myObj = new File("students.txt");
+            File myObj = new File("students.java");
+           // fileWriter file = new FileWriter("students.java");
+           // file.write("hello");
             if (myObj.createNewFile()) {
                 System.out.println("Created Successfully: " + myObj.getName());
             } else {

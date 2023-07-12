@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZerosInArray",
+            "request": "launch",
+            "mainClass": "ZerosInArray",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "IntToString",
+            "request": "launch",
+            "mainClass": "IntToString",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "students",
+            "request": "launch",
+            "mainClass": "students",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "CreateFile",
             "request": "launch",
             "mainClass": "CreateFile",
