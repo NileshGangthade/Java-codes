@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddTwoNum",
+            "request": "launch",
+            "mainClass": "AddTwoNum",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "PrintMyName",
+            "request": "launch",
+            "mainClass": "PrintMyName",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "pattern1",
+            "request": "launch",
+            "mainClass": "pattern1",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "ZerosInArray",
             "request": "launch",
             "mainClass": "ZerosInArray",
