@@ -36,7 +36,8 @@ public class Strings_Operatation {
         System.out.println(name.length());
         System.out.println(name.substring(4));
         System.out.println(name.substring(4, 10));
-        System.out.println(name.replace('t', ' '));
+        System.out.println(name.replace('T', ' '));
+        System.out.println(name);
 
     }
 }

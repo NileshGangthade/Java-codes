@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertationSort",
+            "request": "launch",
+            "mainClass": "InsertationSort",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "BubbelSort",
+            "request": "launch",
+            "mainClass": "BubbelSort",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "StringBulder",
+            "request": "launch",
+            "mainClass": "StringBulder",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArray",
+            "request": "launch",
+            "mainClass": "TwoDArray",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "AddTwoNum",
             "request": "launch",
             "mainClass": "AddTwoNum",
