@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniqueSubStr",
+            "request": "launch",
+            "mainClass": "UniqueSubStr",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "RemoveDuplicate",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "MoveAllXToLast",
+            "request": "launch",
+            "mainClass": "MoveAllXToLast",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "Recursion1",
+            "request": "launch",
+            "mainClass": "Recursion1",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "InsertationSort",
             "request": "launch",
             "mainClass": "InsertationSort",
