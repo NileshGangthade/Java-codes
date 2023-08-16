@@ -10,7 +10,7 @@ public class RemoveDuplicate {
           removeDup (str, i+1, newstr, set);
         }
         else {
-            set.add(c);
+           // set.add(c);
            removeDup (str, i+1, newstr, set);
         }
         
