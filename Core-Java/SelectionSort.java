@@ -1,6 +1,9 @@
+import java.util.*;
 public class SelectionSort {
     public static void main(String[] args) {
         int []arr = {1,8,4,9,2,3};
+        Arrays.sort(arr);
+       // Arrays.reverse(arr);
 
         int temp;
 
