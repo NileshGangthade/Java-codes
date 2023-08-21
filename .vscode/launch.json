@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FineNumber",
+            "request": "launch",
+            "mainClass": "FineNumber",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "Stack1",
             "request": "launch",
             "mainClass": "Stack1",
