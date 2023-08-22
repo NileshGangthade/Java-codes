@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringRearrange",
+            "request": "launch",
+            "mainClass": "StringRearrange",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "StringReconstruction1",
+            "request": "launch",
+            "mainClass": "StringReconstruction1",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "StringReconstruction",
+            "request": "launch",
+            "mainClass": "StringReconstruction",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "Product",
+            "request": "launch",
+            "mainClass": "Product",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "ForestEsc",
+            "request": "launch",
+            "mainClass": "ForestEsc",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "FineNumber",
             "request": "launch",
             "mainClass": "FineNumber",
