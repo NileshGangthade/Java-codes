@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalSum",
+            "request": "launch",
+            "mainClass": "CalSum",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "StringRearrange",
             "request": "launch",
             "mainClass": "StringRearrange",
