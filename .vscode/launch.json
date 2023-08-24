@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumSecondLarge",
+            "request": "launch",
+            "mainClass": "SumSecondLarge",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "LargPalindrom",
+            "request": "launch",
+            "mainClass": "LargPalindrom",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "CalSum",
             "request": "launch",
             "mainClass": "CalSum",
