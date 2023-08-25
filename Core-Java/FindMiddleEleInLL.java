@@ -56,6 +56,39 @@ public Node1 head;
 
         return result;
     }
+
+    public void printLinkedList(int n){
+
+       
+        int mid =0;
+        if (n %2 == 0) {
+            mid = n / 2;
+        }
+        else {
+            mid = (n+1) /2;
+        }
+        int count =1 ;
+        Node1 temp = head ;
+        System.out.println( " First 50 % part : ");
+        for (int i = count ; i < mid; i++) {
+         System.out.print(temp.data + " -> ");
+                temp = temp.next;
+                count += 1;   
+        }
+        System.out.println( " ");
+        System.out.println("Second half : ");
+        while (temp!=null){
+            if( count >= mid){
+                System.out.print(temp.data + " -> ");
+                temp = temp.next;
+                count += 1;
+            }
+        }
+        System.out.println("null");
+       
+       
+
+    }
 }
 public class FindMiddleEleInLL {
     
@@ -71,7 +104,9 @@ public class FindMiddleEleInLL {
             obj.add(sc.nextInt());
         }
 
-       System.out.println("Middle Element is :" + obj.middleElement(n));
+      // System.out.println("Middle Element is :" + obj.middleElement(n));
+
+       obj.printLinkedList(n);
         
     }
 }
