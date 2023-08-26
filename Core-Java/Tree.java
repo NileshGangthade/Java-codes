@@ -46,6 +46,62 @@ class TreeEx {
             System.out.println(curt.data);
             inOrderTravalse(curt.right);
         }
+
+    }
+    public void preOrder(){
+        preOrdederTraverse (root);
+        System.out.println();
+    }
+
+    public void preOrdederTraverse(Node7 curt){
+
+        if (curt != null) {
+
+            System.out.println(curt.data);
+            preOrdederTraverse(curt.left);
+            preOrdederTraverse(curt.right);
+        }
+    }
+
+    public void postOrder(){
+        postOrdederTraverse (root);
+        System.out.println();
+    }
+
+    public void postOrdederTraverse(Node7 curt){
+
+        if (curt != null) {
+           postOrdederTraverse(curt.left);
+            postOrdederTraverse(curt.right);
+            System.out.println(curt.data);
+        }
+    }
+
+    public boolean search (int data){
+        if (searchNode (root, data)){
+            return true;
+        }
+        else return false;
+    }
+
+    public boolean searchNode (Node7 curt , int data){
+
+        boolean result = false;
+        if ( curt == null ){
+            return false;
+        }
+        if (curt.data == data ){
+            return true;
+        }
+        if ( data < curt.data ){
+            result = searchNode(curt.left, data);
+        }
+        else if ( data > curt.data ){
+            result = searchNode(curt.right, data);
+        }
+
+        return result ;
+
     }
 }
 
@@ -55,9 +111,22 @@ public class Tree {
 
         TreeEx obj = new TreeEx();
         System.out.println("Enter the node: ");
-        obj.insert(sc.nextInt());
-        obj.insert(sc.nextInt());
-        obj.insert(sc.nextInt());
+
+        System.out.print("Enter the number of nodes : ");
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++){
+             obj.insert(sc.nextInt());
+        }
+        
+        System.out.println("in order traverse : ");
         obj.inOrder();
+        System.out.println( "Pre Oreder traverse : ");
+        obj.preOrder();
+
+        System.out.println("Post Order traverse : ");
+        obj.postOrder();
+
+        System.out.print("Enter the element : ");
+        System.out.println(obj.search(sc.nextInt()));
     }
 }
