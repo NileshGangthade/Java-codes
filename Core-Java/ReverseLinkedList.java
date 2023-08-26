@@ -83,5 +83,6 @@ public class ReverseLinkedList {
 
         obj.reverseLL ();
        obj.display();
+       sc.close();
 }
 }
