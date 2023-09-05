@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArmonstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmonstrongNumber",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "AddNode",
+            "request": "launch",
+            "mainClass": "AddNode",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "PrintHello",
+            "request": "launch",
+            "mainClass": "PrintHello",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "Tree",
             "request": "launch",
             "mainClass": "Tree",
