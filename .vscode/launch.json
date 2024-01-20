@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "Calculater",
+            "request": "launch",
+            "mainClass": "Calculater",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "Training1",
+            "request": "launch",
+            "mainClass": "Training1",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
+            "name": "AddLinkedList",
+            "request": "launch",
+            "mainClass": "AddLinkedList",
+            "projectName": "Java-codes_83deda1d"
+        },
+        {
+            "type": "java",
             "name": "ArmonstrongNumber",
             "request": "launch",
             "mainClass": "ArmonstrongNumber",

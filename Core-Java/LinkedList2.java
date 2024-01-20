@@ -90,7 +90,7 @@ class Node {
         }
 
         while (temp!=null){
-            System.out.print(temp.data + " -> ");
+            System.out.print(temp.toString() + " -> ");
             temp = temp.next;
         }
         System.out.println("Null");
